@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+.header{
+    position: fixed;
+    width: 100%
+}
+
+.navbar{
+    background-color: rgba(247, 247, 247, 0.911);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 3px 20px rgba(156, 156, 156, 0.61);
+    
+}
+
+.left{
+    padding-left: 20px;
+}
+
+.left img{
+    height: 30px;
+    width: 30px;
+}
+
+.text{
+    padding-left: 30px;
+    font-size: 1.4rem;
+
+}
+
+.mid{
+    width: 70%;
+    padding-left: 100px;
+    
+}
+
+.input{
+    width: 700px;
+    height: 50px;
+    border-radius: 20px;
+    border: none; 
+    font-size: 1.3rem;
+    background-color: rgba(224, 220, 220, 0.5);
+    padding-left: 30px;
+}
+
+.right{
+    padding-left: 0px;
+}
